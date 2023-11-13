@@ -49,7 +49,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any inquiries or feedback, feel free to reach out:
 
-- Your Name
+- Sheikh Ahmed
 - Email: sahmed5@gradcenter.cuny.edu
 - LinkedIn: [Sheikh Ahmed](https://www.linkedin.com/in/sheikhiahmed/)
 ```
