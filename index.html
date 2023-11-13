@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Head-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Project Recommendation Survey</title>
+  </head>
+
+  <!--Body-->
+  <body>
+    <main>
+      <h1 id="title">Project Evaluation and Recommendation Form</h1>
+      <p id="description">
+        Thank you for taking the time to evaluate my projects. Your feedback is
+        valuable to me.
+      </p>
+
+      <!--Main-->
+      <section>
+        <form id="survey-form">
+          <div id="mainbody">
+            <!--name-->
+            <label for="name" id="name-label">Name</label>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+
+            <!--email-->
+            <label for="email" id="email-label">Email</label>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+
+            <!--age-->
+            <label for="number" id="number-label">Age:</label>
+            <input
+              type="number"
+              id="number"
+              name="number"
+              required
+              min="1"
+              max="100"
+              placeholder="Number between 1 to 100"
+            />
+
+            <!--Dropdown Menu-->
+            <label for="dropdown"
+              >Which option best describes your current role?:</label
+            >
+            <select id="dropdown" name="dropdown" required>
+              <option value="" disabled selected>Select an option</option>
+              <option value="Software Engineer">Software Engineer</option>
+              <option value="Project Manager">Project Manager</option>
+              <option value="Product Owner">Product Owner</option>
+              <option value="Release Manager">Release Manager</option>
+              <option value="System Architect">System Architect</option>
+            </select>
+
+            <!--Radio Buttons-->
+            <label>Would you recommend to your office?</label>
+            <label for="Definitely">Definitely</label>
+            <input
+              type="radio"
+              id="Definitely"
+              name="recommendation"
+              value="Definitely"
+            />
+
+            <label for="Maybe">Maybe</label>
+            <input
+              type="radio"
+              id="Maybe"
+              name="recommendation"
+              value="Maybe"
+            />
+
+            <label for="NotSure">Not sure</label>
+            <input
+              type="radio"
+              id="NotSure"
+              name="recommendation"
+              value="Not sure"
+            />
+
+            <label for="Front-end-projects">
+              What would you like to see improved? (Check all that apply)
+            </label>
+            <input
+              type="checkbox"
+              id="Front-end-projects"
+              name="preferences[]"
+              value="Front-end-projects"
+            />
+
+            <label for="Back-end-Projects">Back-end-Projects</label>
+            <input
+              type="checkbox"
+              id="Back-end-Projects"
+              name="preferences[]"
+              value="Back-end-Projects"
+            />
+
+            <label for="Data-Visualization">Data Visualization</label>
+            <input
+              type="checkbox"
+              id="Data-Visualization"
+              name="preferences[]"
+              value="Data-Visualization"
+            />
+
+            <label for="comments">Additional Comments</label>
+            <textarea
+              id="comments"
+              name="comments"
+              rows="10"
+              placeholder="Enter your comments"
+            >
+            </textarea>
+
+            <input type="submit" id="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
