@@ -1,4 +1,4 @@
-```markdown
+
 # Project Recommendation Survey
 ## Overview
 
@@ -22,7 +22,7 @@ This project was created as part of the FreeCodeCamp curriculum. It is a Project
 
 1. Clone the repository:
    git clone https://github.com/SHEIKHIA/Survey-Form
-   ```
+
 2. Open the `index.html` file in a web browser.
 
 3. Fill out the survey form and submit your feedback.
